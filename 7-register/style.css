@@ -93,7 +93,7 @@ input {
 .btn-twitter {
     background-color: cornflowerblue;
 }
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
     .form-section{
         padding: 20px 30px;
     }
@@ -102,5 +102,8 @@ input {
     }
     .mockup {
         display: none;
+    }
+    main {
+        grid-template-columns: 1fr;
     }
 }
