@@ -1,0 +1,53 @@
+/* .container {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row-reverse;
+} */
+/* .container {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+/* .container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    border: 3px solid black;
+    align-items: baseline;
+}
+
+h1{
+    font-size: 70px;
+} */
+
+/* .container {
+    display: flex;
+    border: 2px solid black;
+    width: 600px;
+    flex-wrap: wrap;
+} */
+
+/* .container {
+    display: flex;
+    border: 2px solid black;
+    width: 700px;
+}
+/* order:-1 to bring the element at the beginning and by default the order of element will be 0 */
+
+/* .container div:nth-child(4){
+    order: -1;
+} */ 
+
+.container {
+    display: flex;
+    /* width: 1000px; */
+    border: 2px solid black;
+}
+.container div {
+    flex-grow: 1;
+}
+.container div:nth-child(2)
+{
+    flex-grow: 2;
+}
