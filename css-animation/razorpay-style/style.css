@@ -1,0 +1,10 @@
+body {
+    background-color: #1d1d1d;
+}
+header{
+    height: 90vh;
+    background-image: url(/Emmet/HTML/background\ image.jpg);
+    background-size: cover;
+    background-position:top;
+    clip-path: polygon(96% 7%, 100% 38%, 78% 69%, 5% 52%, 7% 4%);
+}
